@@ -1,10 +1,10 @@
 # Spring Boot Mongodb Example
 
-This example application combines Spring Boot in its current version `3.5.5` with MongoDB. It provides a REST API for managing albums and songs.
+This example application combines Spring Boot in its current version `3.5.6` with MongoDB. It provides a REST API for managing albums and songs.
 
-Using the `spring-boot-docker-compose` library, a MongoDB database is started locally for development – see `docker-compose.yml`. In addition, the REST API can be accessed via Swagger UI under `http://localhost:8080/swagger-ui.html`.
+Using the `spring-boot-docker-compose` library, a MongoDB database is started locally for development - see `docker-compose.yml`. In addition, the REST API can be accessed via Swagger UI under `http://localhost:8080/swagger-ui.html`.
 
-The entities are set up as `@Document` with repositories using `spring-boot-starter-data-mongodb`. For relationships, `@DocumentReference` is used – while MongoDB internally stores only the target id, Spring Boot automatically resolves the reference when needed. The album entity also contains a `MetaData` subfield.
+The entities are set up as `@Document` with repositories using `spring-boot-starter-data-mongodb`. For relationships, `@DocumentReference` is used - while MongoDB internally stores only the target id, Spring Boot automatically resolves the reference when needed. The album entity also contains a `MetaData` subfield.
 
 **Create your own Spring Boot application and define custom documents and relationships** at [Bootify.io](https://bootify.io). Numerous configuration options and modern best practices are included.
 
