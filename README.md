@@ -1,6 +1,6 @@
 # Spring Boot Mongodb Example
 
-This example application combines Spring Boot in its current version `3.5.6` with MongoDB. It provides a REST API for managing albums and songs.
+This example application combines Spring Boot in its current version `3.5.7` with MongoDB. It provides a REST API for managing albums and songs.
 
 Using the `spring-boot-docker-compose` library, a MongoDB database is started locally for development - see `docker-compose.yml`. In addition, the REST API can be accessed via Swagger UI under `http://localhost:8080/swagger-ui.html`.
 
